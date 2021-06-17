@@ -1,0 +1,45 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: green;
+}
+
+header {
+  background-color: grey;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px 40px;
+  color: white;
+}
+
+nav a:hover {
+  background-color: green;
+}
+
+h1 {
+  padding: 80px 40px 0px 40px;
+}
+
+p {
+  padding: 20px 40px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 20px;
+}
+
+.section {
+  background-color: grey;
+}
