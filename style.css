@@ -6,6 +6,7 @@
 
 body {
   background-color: green;
+  text-align: center;
 }
 
 header {
@@ -13,6 +14,7 @@ header {
   top: 0px;
   width: 100%;
   position: fixed;
+  text-align: center;
 }
 
 nav li {
@@ -21,7 +23,7 @@ nav li {
   color: white;
 }
 
-nav a:hover {
+nav li:hover, .active li {
   background-color: green;
 }
 
@@ -35,11 +37,17 @@ p {
 
 img {
   display: block;
-  margin: 0 auto;
-  width: 90%;
-  padding-bottom: 20px;
+  width: 100%;
+  padding: 20px 0px;
 }
 
-.section {
-  background-color: grey;
+.main {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.text {
+  background-color: lightgreen;
+  text-align: justify;
 }
